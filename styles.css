@@ -42,14 +42,30 @@ body, html {
 }
 
 .text-container h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 20px;
+    color: #333333;
+}
+
+.text-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #aaaaaa;
 }
 
 .text-container p {
     font-size: 1.2em;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+
+.text-container a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.text-container a:hover {
+    text-decoration: underline;
 }
 
 /* Optional: add responsive design */
