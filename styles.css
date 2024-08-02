@@ -9,18 +9,19 @@ body, html {
     font-family: 'Mundial', Arial, sans-serif; /* Use Mundial font */
     background-color: #ffffff;
     color: #333333;
-    font-weight: 400; /* Regular weight for body text */
+    font-weight: 400; /* Regular weight for all text */
 }
 
 h1, h2 {
     font-family: 'Mundial', Arial, sans-serif; /* Ensure headers use Mundial font */
-    font-weight: 600; /* Demi-Bold weight for headings */
+    font-weight: 400; /* Regular weight for headings */
 }
 
 .container {
     display: flex;
     height: 100vh; /* Full viewport height */
     width: 100%;
+    flex-direction: row-reverse; /* Flip the image and text containers */
 }
 
 .image-container {
@@ -49,20 +50,20 @@ h1, h2 {
 
 .text-container h1 {
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 5px; /* Close spacing with h2 */
     color: #333333;
 }
 
 .text-container h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 1.2em; /* Keep h2 smaller */
+    margin-bottom: 40px; /* Increase space below h2 */
     color: #aaaaaa;
 }
 
 .text-container p {
     font-size: 1.2em;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* Increase space below the last paragraph */
 }
 
 .text-container a {
