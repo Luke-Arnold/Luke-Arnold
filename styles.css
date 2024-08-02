@@ -9,6 +9,12 @@ body, html {
     font-family: 'Mundial', Arial, sans-serif; /* Use Mundial font */
     background-color: #ffffff;
     color: #333333;
+    font-weight: 400; /* Regular weight for body text */
+}
+
+h1, h2 {
+    font-family: 'Mundial', Arial, sans-serif; /* Ensure headers use Mundial font */
+    font-weight: 600; /* Demi-Bold weight for headings */
 }
 
 .container {
