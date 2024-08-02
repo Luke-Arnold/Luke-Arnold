@@ -6,7 +6,7 @@
 
 body, html {
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: 'Mundial', Arial, sans-serif; /* Use Mundial font */
     background-color: #ffffff;
     color: #333333;
 }
